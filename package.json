@@ -1,0 +1,21 @@
+{
+  "name": "mauri.co",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/markdownit": "^2.0.0",
+    "@nuxtjs/strapi": "^0.3.1",
+    "core-js": "^3.9.1",
+    "gsap": "^3.6.1",
+    "markdown-it-modify-token": "^1.0.2",
+    "nes.css": "^2.3.0",
+    "nuxt": "^2.15.3"
+  },
+  "devDependencies": {}
+}
