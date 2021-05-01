@@ -52,8 +52,8 @@ export default {
     ],
     modifyToken: function (token, env) {    
       switch (token.type) {
-      case 'image': // set all images to 200px width except for foo.gif
-        token.attrObj.src = (env.baseUrl ? env.baseUrl : '') + token.attrObj.src
+      case 'image': // add baseUrl to images src
+        token.attrObj.src = 'https://strapi.mauri.co' + token.attrObj.src
         break;
       }
     }
