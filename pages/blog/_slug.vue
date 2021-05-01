@@ -1,8 +1,8 @@
 <template>
 <div style="padding:20px">
     <NuxtLink to="/"><< Back</NuxtLink>
-    <div class="container blog">
-        <div class="nes-container with-title grid" style="margin-top:20px">
+    <div class="container blog grid">
+        <div class="nes-container with-title unit two-thirds" style="margin-top:20px;">
             <h1>{{ post.Titulo }}</h1>
             <postContent v-for="content in post.Contenido" :key="content.id" :content="content"/>
         </div>
