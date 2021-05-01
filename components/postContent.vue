@@ -21,10 +21,13 @@ export default {
         margin-top:60px;
     }
     div.content p {
-        margin-top:40px;
+        margin-top:20px;
         font-size: 16px;
-        color: rgb(77, 75, 75)
     }
+    div.content li {
+        margin-top:20px;
+        font-size: 16px;
+    }    
     div.content pre {
         padding: 10px;
         background-color: rgb(77, 75, 75);

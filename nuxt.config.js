@@ -14,7 +14,8 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Press+Start+2P'}
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Press+Start+2P'},
+      { rel: 'stylesheer', href: 'https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap'}
     ]
   },
 
