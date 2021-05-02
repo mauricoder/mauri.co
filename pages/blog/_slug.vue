@@ -1,10 +1,11 @@
 <template>
 <div style="padding:20px">
-    <NuxtLink to="/"><< Back</NuxtLink>
+    <NuxtLink to="/">&lt;&lt; Back</NuxtLink>
     <div class="container blog grid">
         <div class="nes-container with-title unit two-thirds" style="margin-top:20px;">
             <h1>{{ post.Titulo }}</h1>
             <postContent v-for="content in post.Contenido" :key="content.id" :content="content"/>
+            <ShareIt :title="post.Titulo" :description="post.Titulo"/>
         </div>
     </div>
 </div>

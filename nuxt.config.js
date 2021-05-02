@@ -44,7 +44,8 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/strapi',
-    '@nuxtjs/markdownit'
+    '@nuxtjs/markdownit',
+    'vue-social-sharing/nuxt'
   ],
   markdownit: {
     linkify: true,

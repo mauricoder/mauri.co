@@ -15,7 +15,8 @@
     "gsap": "^3.6.1",
     "markdown-it-modify-token": "^1.0.2",
     "nes.css": "^2.3.0",
-    "nuxt": "^2.15.3"
+    "nuxt": "^2.15.3",
+    "vue-social-sharing": "^3.0.7"
   },
   "devDependencies": {}
 }
