@@ -1,10 +1,17 @@
 <template>
-    <div class="blog-card" :class="{'unit': true, 'one-third': true, 'nes-container': true, 'is-rounded': true, 'is-dark': hover}" @mouseover="hover=true" @mouseleave="hover=false">
-        <NuxtLink :to="{name: 'blog-slug', params: { slug: post.slug}}">
-        {{ post.Titulo }}
-        <img class="unit whole" :src="getStrapiMedia(post.ImagenTarjeta.url)"/>
-        </NuxtLink>
-    </div>    
+    <div class="unit one-quarter">
+        <div 
+            class="blog-card nes-container is-rounded" 
+            :class="{'is-dark': hover}" 
+            @mouseover="hover=true" 
+            @mouseleave="hover=false"
+        >
+            <NuxtLink :to="{name: 'blog-slug', params: { slug: post.slug}}">
+            {{ post.Titulo }}
+            <img class="whole" :src="getStrapiMedia(post.ImagenTarjeta.url)"/>
+            </NuxtLink>
+        </div>
+    </div>
 </template>
 
 <script>

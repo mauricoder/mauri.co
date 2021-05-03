@@ -12,6 +12,13 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' }
     ],
+    script: [
+      {
+        src: "https://umami.mauri.co/umami.js",
+        async: true,
+        'data-website-id': '4be0f896-0a4a-4885-ba43-01137f367caf'
+      },
+    ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Press+Start+2P'},
