@@ -31,6 +31,7 @@ export default {
     'nes.css/css/nes.min.css',
     '~/assets/css/style.css',
     '~/assets/css/gridism.css',
+    { src: '~/node_modules/highlight.js/styles/hopscotch.css', lang: 'css' }
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -58,7 +59,8 @@ export default {
     linkify: true,
     breaks: true,
     use: [
-      'markdown-it-modify-token'
+      'markdown-it-modify-token',
+      'markdown-it-highlightjs'
     ],
     modifyToken: function (token, env) {    
       switch (token.type) {
